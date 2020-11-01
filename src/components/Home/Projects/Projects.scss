@@ -1,0 +1,116 @@
+.Projects {
+    .card {
+        background-color: #071d33;
+        // height: 100%;
+
+        .image-box {
+            position: relative;
+            width: 100%;
+            height: 300px;
+            overflow: hidden;
+            cursor: pointer;
+
+            img {
+                width: 100%;
+                height: auto;
+                transform: translateY(0px);
+                transition: all ease-in-out 1s;
+            }
+
+            &:hover img {
+                transform: translateY(calc(-100% + 300px));
+            }
+        }
+    }
+
+    .card-body {
+        .role {
+            color: #6ad1ea;
+            font-size: 13px;
+            margin-top: -12px;
+        }
+
+    }
+
+    .btn {
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 16px;
+        color: #FFFFFF;
+        border: 1px solid #FFFFFF;
+    }
+
+    .btn:hover {
+        font-size: 16px;
+        color: #6ad1ea;
+        border: 1px solid #6ad1ea;
+    }
+
+    .header h2 {
+        font-size: 35px;
+    }
+
+    .header span {
+        color: #6ad1ea;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+
+    .technology span {
+        display: inline-block;
+        margin: 3px 0;
+        border-radius: 3px;
+        padding: 3px 10px;
+        font-size: 13px;
+        border: 1px solid #6ad1ea;
+    }
+
+    .fab,
+    .fas {
+        font-size: 25px;
+        color: #FFFFFF;
+    }
+
+    .fab:hover,
+    .fas:hover {
+        color: #6ad1ea;
+    }
+
+    .wrapper {
+        padding-bottom: 50px;
+    }
+
+    .divider {
+        position: relative;
+        margin-top: 30px;
+        height: 1px;
+    }
+
+    .div-transparent:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 25%;
+        right: 25%;
+        width: 50%;
+        height: 1px;
+        background: #fff;
+    }
+
+    .div-dot:after {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        top: -5px;
+        left: calc(50% - 5px);
+        width: 12px;
+        height: 12px;
+        background-color: #6ad1ea;
+        border-radius: 50%;
+        box-shadow: inset 0 0 0 2px#021325,
+            0 0 0 10px #021325;
+    }
+}

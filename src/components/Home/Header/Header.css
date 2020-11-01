@@ -1,0 +1,13 @@
+.Header .btn {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.Header .btn:hover {
+    font-size: 16px;
+    color: #6ad1ea;
+    border: 1px solid #6ad1ea;
+}
